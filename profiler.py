@@ -112,5 +112,5 @@ for runArg in runArgs:
         runs.append(currSample)
 
 
-with open("runs2.json", 'w') as f:
+with open("runs.json", 'w') as f:
     f.write(json.dumps(runs, indent=4))
